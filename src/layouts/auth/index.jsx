@@ -23,8 +23,8 @@ export default function Auth() {
         <FixedSetting />
         <main className={`mx-auto min-h-screen`}>
           <div className="relative flex">
-            <div className="mx-auto flex min-h-full w-full flex-col justify-start pt-12 md:max-w-[75%] lg:h-screen lg:max-w-[1013px] lg:px-8 lg:pt-0 xl:h-[100vh] xl:max-w-[1383px] xl:px-0 pl-0 lg:pl-[120px] xl:pl-[160px] overflow-hidden lg:overflow-y-scroll no-scrollbar">
-              <div className="mb-auto flex flex-col pl-5 pr-5 lg:max-w-[48%] xl:max-w-full">
+            <div className="mx-auto flex min-h-full w-full justify-start pt-12 md:max-w-[75%] lg:h-screen lg:max-w-[1013px] lg:pt-0 xl:h-[100vh] xl:max-w-[1383px] xl:px-0 pl-0 overflow-hidden lg:overflow-y-scroll no-scrollbar">
+              <div className="flex flex-col pl-5 pr-5 lg:max-w-[48%] w-full xl:max-w-full">
                 <Routes>
                   {getRoutes(routes)}
                   <Route
